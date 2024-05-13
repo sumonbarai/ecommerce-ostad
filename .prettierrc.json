@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": "api.js",
+      "options": {
+        "printWidth": 200
+      }
+    }
+  ]
+}

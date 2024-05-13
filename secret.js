@@ -1,0 +1,19 @@
+require("dotenv").config();
+
+const {
+  PORT,
+  DATABASE_URI,
+  SMTP_USER_NAME,
+  SMTP_USER_PASSWORD,
+  ACCESS_TOKEN_SECRET,
+  ACCESS_TOKEN_EXPIRY,
+} = process.env;
+
+module.exports = {
+  PORT,
+  DATABASE_URI,
+  SMTP_USER_NAME,
+  SMTP_USER_PASSWORD,
+  ACCESS_TOKEN_SECRET,
+  ACCESS_TOKEN_EXPIRY,
+};
